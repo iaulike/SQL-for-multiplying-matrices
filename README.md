@@ -1,6 +1,6 @@
 # SQL-for-multiplying-matrices
 
-This gets the 3,5 element of the matrix multiplication:
+This SQL snippet I wrote gets the 3,5 element of the matrix multiplication of A and B:
 
 SELECT A.row_num, B.col_num, sum(A.value * B.value)
 
